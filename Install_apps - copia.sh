@@ -71,6 +71,8 @@ packages=(
     gtksourceview3
     libsoup3
     hyprpanel
+    fzf
+    lsd
 )
 
 echo "Starting installation of ${#packages[@]} packages using yay..."
