@@ -38,26 +38,29 @@ packages=(
     starship
     stow
     swww
+    swaybg
     tela-circle-icon-theme-nord
-    thorium-browser-bin
     thunar-archive-plugin
     thunar-media-tags-plugin
     thunar-volman
     tldr
     trash-cli
-    ttf-font-awesome
+    ttf-bitstream-vera
+    ttf-dejavu
     ttf-hack-nerd
     ttf-iosevka-nerd
     ttf-iosevkaterm-nerd
     ttf-jetbrains-mono-nerd
     ttf-liberation
     ttf-meslo-nerd
+    ttf-opensans
     tumbler
     tumbler-extra-thumbnailers
     waypaper
     wl-color-picker
     wlogout
     xdg-desktop-portal-hyprland
+    xdg-desktop-portal-gtk
     yad
     yazi
     zenity
@@ -73,6 +76,13 @@ packages=(
     hyprpanel
     fzf
     lsd
+    google-chrome
+    sddm-sugar-candy-git
+    ags-hyprpanel-git
+    wl-clipboard
+    polkit-gnome
+    loupe
+    gnome-keyring
 )
 
 echo "Starting installation of ${#packages[@]} packages using yay..."
